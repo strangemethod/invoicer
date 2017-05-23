@@ -1,0 +1,36 @@
+/* line 8, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+.table .row {
+  display: block;
+  float: left;
+  width: 100%;
+  clear: both;
+  border-bottom: 1px solid #999;
+  padding: 0;
+  margin: 0; }
+  /* line 17, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+  .table .row:last-child {
+    border-bottom: 2px solid #999; }
+  /* line 21, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+  .table .row li {
+    float: left;
+    padding: 10px; }
+    /* line 25, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+    .table .row li.narrow {
+      width: 16.66%; }
+    /* line 29, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+    .table .row li.wide {
+      width: 50%; }
+  /* line 35, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+  .table .row.keys {
+    font-weight: bold;
+    border-bottom: 2px solid #999; }
+  /* line 40, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+  .table .row.narrow {
+    border: none;
+    font-weight: bold; }
+    /* line 44, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+    .table .row.narrow .narrow {
+      border-bottom: 1px solid #999; }
+    /* line 49, /Users/andrewb/Projects/starters/invoicer/src/components/table/table.scss */
+    .table .row.narrow:last-child .narrow {
+      border-bottom: 2px solid #999; }

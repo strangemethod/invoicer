@@ -1,0 +1,23 @@
+{{> head}}
+
+	<header class="container">
+    	<div class="title">
+    		<h1 class="gray">{{data.docType}}</h1>
+    		<h2 class="green">{{data.name}}</h2>
+    	
+        </div><ul class="status">
+            
+            <li id="date"></li>
+            <li id="invoiceNum"></li>
+        </ul><ul class="contact">
+            
+            <li>{{data.address-1}}</li>
+            <li>{{data.address-2}}</li>
+            <li>{{data.mobile}}</li>
+            <li>{{data.email}}</li>
+        </ul>
+    </header>
+
+	{{> table/table}}
+
+{{> foot}}

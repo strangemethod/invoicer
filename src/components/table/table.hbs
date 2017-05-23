@@ -1,0 +1,38 @@
+<div class="table container">
+
+	<ul class="row keys">
+		<li class="wide">Description</li>
+		<li class="narrow">Hours</li>
+		<li class="narrow">Cost</li>
+		<li class="narrow">Total</li>
+	</ul>
+
+	
+ 	{{#each data.invoice}}
+ 		<ul class="row">
+  			<li class="wide">{{description}}</li>
+  			<li class="narrow">{{hours}}</li>
+  			<li class="narrow">{{cost}}</li>
+  			<li class="narrow">{{total}}</li>
+  		</ul>
+  	{{/each}}
+
+</div>
+
+<div class="table container">
+
+	<ul class="row narrow">
+		<li class="wide">&nbsp;</li>
+		<li class="narrow">&nbsp;</li>
+		<li class="narrow">Additional</li>
+		<li class="narrow">0</li>
+	</ul>
+
+	<ul class="row narrow">
+		<li class="wide">&nbsp;</li>
+		<li class="narrow">&nbsp;</li>
+		<li class="narrow">Total</li>
+		<li class="narrow">480</li>
+	</ul>
+
+</div>

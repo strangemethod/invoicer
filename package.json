@@ -1,0 +1,29 @@
+{
+  "name": "static-site-boilerplate",
+  "version": "1.0.0",
+  "description": "A dead-simple starting point for static site development.",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "author": "Andrew Bowles <andrew.a.bowles@gmail.com> (http://www.andrewbowles.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-data": "^1.2.1",
+    "gulp-file-include": "^0.14.0",
+    "gulp-hb": "^6.0.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^2.1.0",
+    "merge-stream": "^1.0.1",
+    "normalize.css": "^4.2.0",
+    "tiny-lr": "^0.2.1"
+  }
+}

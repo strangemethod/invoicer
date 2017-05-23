@@ -1,0 +1,37 @@
+{
+	"docType": "Invoice",
+    "name": "John Smith",
+    "title": "Creative Technologist",
+    "address-1": "123 Main St",
+    "address-2": "Los Angeles, CA 90066",
+    "mobile": "(xxx) xxx-xxxx",
+    "email": "youremail@address.com",
+
+    "invoice": [
+    	{
+    		"description": "lorem ipsem",
+    		"hours": "2",
+    		"cost": "60",
+    		"total": "120"
+    	},
+    	{
+    		"description": "lorem ipsem dolor sit",
+    		"hours": "2",
+    		"cost": "60",
+    		"total": "120"
+    	},
+    	{
+    		"description": "lorem ipsem",
+    		"hours": "2",
+    		"cost": "60",
+    		"total": "120"
+    	},
+    	{
+    		"description": "lorem ipsem dolor sit",
+    		"hours": "2",
+    		"cost": "60",
+    		"total": "120"
+    	}    	
+    ]
+
+}

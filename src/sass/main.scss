@@ -1,0 +1,53 @@
+@media all {
+
+	@import 'vars';
+	@import 'fonts';
+	@import 'typography';
+
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background: $color-white;
+	}
+
+	.container {
+		width: 100%;
+		padding: 0;
+		max-width: $container-width;
+		margin: 0 auto;
+		clear: both;
+
+		&:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+	}
+		
+
+	header {
+		padding: 40px 0 80px!important;
+
+		.title, .contact, .status {
+			float: left;
+			padding: 10px;
+		}
+
+		.title {
+			width: 50%;
+		}
+
+		.contact {
+			width: 25%;
+		}
+
+		.status {
+			width: 25%;
+		}
+
+	}
+
+
+}

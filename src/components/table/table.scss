@@ -1,0 +1,56 @@
+$color-black: #000;
+$color-white: #FFF;
+$color-gray-dark: #999;
+$color-green: #48E5C2;
+
+.table {
+
+	.row {
+		display: block;
+		float: left;
+		width: 100%;
+		clear: both;
+		border-bottom: 1px solid $color-gray-dark;
+		padding: 0;
+		margin: 0;
+
+		&:last-child {
+			border-bottom: 2px solid $color-gray-dark;
+		}
+
+		li {
+			float: left;
+			padding: 10px;
+			
+			&.narrow {
+				width: 16.66%;
+			}
+
+			&.wide {
+				width: 50%;
+			}
+
+		}
+
+		&.keys {
+			font-weight: bold;
+			border-bottom: 2px solid $color-gray-dark;
+		}
+	
+		&.narrow {
+			border: none;
+			font-weight: bold;
+			
+			.narrow {
+				border-bottom: 1px solid $color-gray-dark;
+			}
+			
+			&:last-child {
+				.narrow {
+					border-bottom: 2px solid $color-gray-dark;
+				}
+			}
+
+		}
+	}
+}
